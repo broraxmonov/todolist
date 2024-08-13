@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(242, 218, 187) ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(8, 50, 8);
+    border-radius: 30px;
+    padding: 30px;
+}
+#lbl1{
+    font-size: 40pt;
+    color: white;
+}
+#inp1{
+    width: 70%;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: rgb(8, 50, 8);
+    border: 2px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 20pt;
+}
+#inp1::placeholder{
+    position: absolute;
+    font-size: 20pt;
+    color: white;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+#btn1{
+    width: 80px;
+    height: 50px;
+    font-size: 20pt;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: rgb(8, 50, 8);
+    border: 2px solid white;
+    color: white;
+}
